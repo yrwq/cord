@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: "Iosevka";
+    src: url('https://git.yrwq.xyz/yrwq/cord/raw/branch/main/font/myosevka-regular.ttf');
+}
+
+@font-face {
+    font-family: "Pragmasevka";
+    src: url('https://git.yrwq.xyz/yrwq/cord/raw/branch/main/font/pragmasevka-regular.ttf');
+}
 
 /* customize things here */
 :root {
-	/* font, change to 'gg sans' for default discord font*/
-	--font: 'figtree';
+	--font: 'Pragmasevka';
 
 	/* top left corner text */
 	--corner-text: 'cord';
@@ -74,8 +81,8 @@
 
 /* change fonts (edit the variables above, not this part) */
 :root {
-	--font-primary: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	--font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-primary: var(--font) !important;
+	--font-display: var(--font) !important;
 }
 
 /* reduced motion */
@@ -1107,4 +1114,8 @@ html.theme-light,
 	--primary-660: var(--bg-3); /* search popout "enter" bar */
 
 	--white-500: var(--text-1);
+}
+
+* {
+  font-family: "Pragmasevka" !important;
 }
