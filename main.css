@@ -1,6 +1,6 @@
 /* customize things here */
 :root {
-	--font: 'azukifontB';
+	--font: 'Pragmasevka';
 
 	/* top left corner text */
 	--corner-text: 'cord';
@@ -29,13 +29,13 @@
 	--text-5: #aaa; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(195, 15%, 20%); /* dark buttons when clicked */
-	--bg-2: hsl(195, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(195, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(195, 15%, 10%); /* main background color */
-	--hover: hsla(195, 20%, 40%, 0.1); /* channels and buttons when hovered */
+	--bg-1: hsl(240, 4%, 16%); /* dark buttons when clicked */
+	--bg-2: hsl(240, 6%, 10%); /* dark buttons */
+	--bg-3: hsl(240, 4%, 16%); /* spacing, secondary elements */
+	--bg-4: hsl(240, 10%, 4%); /* main background color */
+	--hover: hsla(240, 10%, 4%, 0.1); /* channels and buttons when hovered */
 	--active: hsla(195, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(195, 0%, 0%, 0.1); /* messages when hovered */
+	--message-hover: hsla(240, 5%, 18%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
