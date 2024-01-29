@@ -1,16 +1,6 @@
-@font-face {
-    font-family: "Iosevka";
-    src: url('https://git.yrwq.xyz/yrwq/cord/raw/branch/main/font/myosevka-regular.ttf');
-}
-
-@font-face {
-    font-family: "Pragmasevka";
-    src: url('https://git.yrwq.xyz/yrwq/cord/raw/branch/main/font/pragmasevka-regular.ttf');
-}
-
 /* customize things here */
 :root {
-	--font: 'Pragmasevka';
+	--font: 'azukifontB';
 
 	/* top left corner text */
 	--corner-text: 'cord';
@@ -1117,5 +1107,5 @@ html.theme-light,
 }
 
 * {
-  font-family: "Pragmasevka" !important;
+  font-family: var(--font) !important;
 }
